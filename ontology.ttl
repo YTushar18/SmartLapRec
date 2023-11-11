@@ -1,0 +1,17 @@
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:Laptop a owl:Class .
+ex:hasProcessor a owl:ObjectProperty .
+ex:hasRAM a owl:DatatypeProperty .
+ex:hasStorage a owl:DatatypeProperty .
+ex:hasWeight a owl:DatatypeProperty .
+ex:belongsToCategory a owl:DatatypeProperty .
+ex:hasPrice a owl:DatatypeProperty .
+
+ex:User a owl:Class .
+ex:prefersProcessor a owl:DatatypeProperty .
+ex:prefersRAM a owl:DatatypeProperty .
+ex:prefersStorage a owl:DatatypeProperty .
+ex:prefersCategory a owl:DatatypeProperty .
+ex:hasBudget a owl:DatatypeProperty .
