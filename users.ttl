@@ -1,0 +1,15 @@
+@prefix ex: <http://example.org/> .
+
+ex:User1 a ex:User ;
+  ex:prefersProcessor "Apple M2, 8-core" ;
+  ex:prefersRAM "16GB" ;
+  ex:prefersStorage "512GB SSD" ;
+  ex:prefersCategory "Professional" ;
+  ex:hasBudget "High" .
+
+ex:User2 a ex:User ;
+  ex:prefersProcessor "Apple M3, 10-core" ;
+  ex:prefersRAM "32GB" ;
+  ex:prefersStorage "1TB SSD" ;
+  ex:prefersCategory "Professional" ;
+  ex:hasBudget "Very High" .
