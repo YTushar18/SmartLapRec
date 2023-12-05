@@ -1,0 +1,17 @@
+@prefix ex: <http://example.org/> .
+
+ex:MacbookAir2022 a ex:Laptop ;
+  ex:hasProcessor "Apple M2, 8-core" ;
+  ex:hasRAM "16GB" ;
+  ex:hasStorage "512GB SSD" ;
+  ex:hasWeight "2.8 pounds" ;
+  ex:belongsToCategory "Professional" ;
+  ex:hasPrice "High" .
+
+ex:MacbookPro2023 a ex:Laptop ;
+  ex:hasProcessor "Apple M3, 10-core" ;
+  ex:hasRAM "32GB" ;
+  ex:hasStorage "1TB SSD" ;
+  ex:hasWeight "3.5 pounds" ;
+  ex:belongsToCategory "Professional" ;
+  ex:hasPrice "Very High" .

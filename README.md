@@ -5,5 +5,5 @@ Semantic Recommendation System for Apple Laptops
 Python 3.11 stable version
 
 # library
-rdflib
-python3 -m pip install rdflib
+pip install rdflib
+pip install tk-tools
