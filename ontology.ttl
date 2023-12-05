@@ -1,17 +1,76 @@
-@prefix ex: <http://example.org/> .
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ex:Laptop a owl:Class .
-ex:hasProcessor a owl:ObjectProperty .
-ex:hasRAM a owl:DatatypeProperty .
-ex:hasStorage a owl:DatatypeProperty .
-ex:hasWeight a owl:DatatypeProperty .
-ex:belongsToCategory a owl:DatatypeProperty .
-ex:hasPrice a owl:DatatypeProperty .
+# Define the Laptop class
+ns1:Laptop a owl:Class .
 
-ex:User a owl:Class .
-ex:prefersProcessor a owl:DatatypeProperty .
-ex:prefersRAM a owl:DatatypeProperty .
-ex:prefersStorage a owl:DatatypeProperty .
-ex:prefersCategory a owl:DatatypeProperty .
-ex:hasBudget a owl:DatatypeProperty .
+# Define properties of the Laptop class
+ns1:brand a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:clock_speed a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:float .
+
+ns1:graphic_card_brand a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:hd_size a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:integer .
+
+ns1:hd_type a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:id a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:integer .
+
+ns1:model a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:os a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:price a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:integer .
+
+ns1:processor_brand a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:processor_model a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:string .
+
+ns1:ram a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:integer .
+
+ns1:screen_size a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:float .
+
+ns1:weight a owl:DatatypeProperty ;
+    rdfs:domain ns1:Laptop ;
+    rdfs:range xsd:float .
+
+# Define the User class
+ns1:User a owl:Class .
+
+# Define properties relevant to the User class
+ns1:prefersLaptopType a owl:DatatypeProperty ;
+    rdfs:domain ns1:User ;
+    rdfs:range xsd:string .
+
+ns1:hasBudget a owl:DatatypeProperty ;
+    rdfs:domain ns1:User ;
+    rdfs:range xsd:integer .
