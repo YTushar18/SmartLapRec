@@ -53,7 +53,7 @@ def recommend_laptops():
                                 regex(str(?os), "windows"))
                     }}
                     """
-    elif user_laptop_type_preference == "clerk":
+    elif user_laptop_type_preference == "dev":
         query_str = f"""
                     SELECT ?ram ?brand ?model
                     WHERE {{
