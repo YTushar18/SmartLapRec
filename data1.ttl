@@ -1,0 +1,92 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Laptop_1 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 1 ;
+    ns1:model "Inspiron 15-3567" ;
+    ns1:os "linux" ;
+    ns1:price 40000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_10 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 10 ;
+    ns1:model "Inspiron 15.6 3552" ;
+    ns1:os "linux" ;
+    ns1:price 21990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "pentium N3710" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_100 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 100 ;
+    ns1:model "Pavilion 14-bf125tx " ;
+    ns1:os "windows" ;
+    ns1:price 64490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 12 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.53"^^xsd:float .
+
+ns1:Laptop_101 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.8"^^xsd:float ;
+    ns1:comments """Operating System:	Windows 10 with Office 2016 Home and Student\r
+\r
+Lithium Battery Energy Content:	74 Watt Hours\r
+\r
+Included Components:	Laptop, Battery, AC Adapter, User Guide, Manuals""" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1280 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 101 ;
+    ns1:model "Inspiron 15 Gaming 7567" ;
+    ns1:os "windows" ;
+    ns1:price 112990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_102 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 102 ;
+    ns1:model "ay516tx" ;
+    ns1:os "windows" ;
+    ns1:price 42100 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "1.28"^^xsd:float .
+
