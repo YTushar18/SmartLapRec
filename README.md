@@ -3,7 +3,7 @@
 # Description
 Our project focuses on developing an expert recommendation system for laptops using Semantic Web technologies. Leveraging RDF and OWL, the system represents laptop specifications, user preferences, and budget constraints. Through SPARQL queries and semantic reasoning, the system dynamically generates personalized recommendations, providing users with tailored suggestions based on their unique preferences and requirements.​
 
-### Acknowledgment
+# Acknowledgment
 
 This project is developed as part of CPSC 583 - Expert System Design Theory, where we delved into the principles of building intelligent systems. It serves as a practical implementation of the knowledge gained in the course.
 
@@ -53,7 +53,7 @@ Feel free to explore the project, provide feedback, and tailor it to your specif
    python3 graph.py
 
 ## Facing any issues???
-Feel free to [open an issue](https://github.com/YTushar18/SmartLapRec/issues/new?assignees=&labels=Query&title=Query). We'll be glad to help you.❤️
+Feel free to [open an issue](https://github.com/YTushar18/SmartLapRec/issues/new?assignees=&labels=Query&title=Query). We'll be glad to help you. ❤️
 
 ## Developers
 1. [Dhruti Patel](https://github.com/iamdhrutipatel)
