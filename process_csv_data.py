@@ -1,3 +1,11 @@
+"""
+CSV to RDF Conversion
+
+This script reads laptop data from a CSV file, converts it into RDF triples,
+and serializes the RDF graph to Turtle format.
+
+"""
+
 import pandas as pd
 from rdflib import Graph, URIRef, Literal, Namespace, RDF, XSD
 

@@ -89,4 +89,3 @@ ns1:Laptop_102 a ns1:Laptop ;
     ns1:ram 4 ;
     ns1:screen_size "15.6"^^xsd:float ;
     ns1:weight "1.28"^^xsd:float .
-

@@ -1,3 +1,12 @@
+"""
+Laptop Recommendation System
+
+This script implements a simple Tkinter-based GUI for recommending laptops based on user preferences.
+It uses RDF (Resource Description Framework) for modeling user preferences and querying recommendations.
+
+"""
+
+# Import necessary modules from the tkinter library and rdflib for RDF processing
 import tkinter as tk
 from tkinter import scrolledtext
 from rdflib.plugins.sparql import prepareQuery
@@ -7,7 +16,14 @@ from rdflib import Graph, Literal, Namespace, RDF, URIRef
 ns1 = Namespace("http://example.org/")
 
 def recommend_laptops():
-    print(123)
+    """
+    Recommend laptops based on user preferences.
+
+    Retrieves user preferences from the entry fields, creates an RDF graph, and performs a SPARQL query
+    to recommend laptops based on specified criteria. The recommendations are displayed in a text box.
+
+    """
+    
     # Retrieve user preferences from the entry fields
     user_laptop_type_preference = selected_laptop_type.get()
     budget_preference = budget_entry.get()
@@ -15,7 +31,7 @@ def recommend_laptops():
 
     # Create a new RDF graph and add user preferences
     user_graph = Graph()
-    user_uri = URIRef(f"http://example.org/User1")  # You can use a dynamic user ID
+    user_uri = URIRef(f"http://example.org/User1")
     user_graph.add((user_uri, RDF.type, ns1.User))
     user_graph.add(
         (user_uri, ns1.prefersLaptopType, Literal(user_laptop_type_preference))
@@ -28,10 +44,12 @@ def recommend_laptops():
     g.parse("data.ttl", format="turtle")  # Load existing data
     g += user_graph
 
+    # Display user preferences
     print("username:",username)
     print("user_laptop_type_preference:",user_laptop_type_preference)
     print("budget_preference:",budget_preference)
 
+    # SPARQL query based on user preferences
     if user_laptop_type_preference == "Gaming":
         query_str = f"""
                     SELECT ?price ?brand ?model
@@ -58,7 +76,7 @@ def recommend_laptops():
                                 regex(str(?os), "windows"))
                     }}
                     """
-    elif user_laptop_type_preference == "Development":
+    elif user_laptop_type_preference == "Home":
         query_str = f"""
                     SELECT ?price ?brand ?model
                     WHERE {{
@@ -72,13 +90,12 @@ def recommend_laptops():
                                 ns1:os ?os ;
                                 ns1:price ?price .
 
-                        FILTER (?ram >= 2 && ?storage >= 128 && ?screen > 12 &&
+                        FILTER (?ram >= 4 && ?storage >= 512 && ?screen > 13 &&
                                 ?price <= {budget_preference} && 
-                                regex(str(?processor), "intel") && 
-                                regex(str(?os), "windows"))
+                                (regex(str(?os), "windows") || regex(str(?os), "mac")))
                     }}
                     """
-    elif user_laptop_type_preference == "Home":
+    elif user_laptop_type_preference == "Development":
         query_str = f"""
                     SELECT ?price ?brand ?model
                     WHERE {{
@@ -104,7 +121,7 @@ def recommend_laptops():
                     """
     else:
         query_str = f"""
-                    SELECT ?price ?brand ?model
+                    SELECT ?ram ?brand ?model
                     WHERE {{
                         ?laptop a ns1:Laptop ;
                                 ns1:ram ?ram ;
@@ -116,15 +133,18 @@ def recommend_laptops():
                                 ns1:os ?os ;
                                 ns1:price ?price .
 
-                        FILTER (?ram >= 4 && ?storage >= 512 && ?screen > 13 &&
+                        FILTER (?ram >= 2 && ?storage >= 512 && ?screen > 12 &&
                                 ?price <= {budget_preference} && 
-                                (regex(str(?os), "windows") || regex(str(?os), "mac")))
+                                regex(str(?processor), "intel") && 
+                                regex(str(?os), "windows"))
                     }}
                     """
     
+    # Execute the SPARQL query
     query = prepareQuery(query_str, initNs={"ns1": ns1})
     results = g.query(query)
 
+    # Display the recommendations in the console
     for row in results:
         print('....',row.price, row.brand, row.model)
     
@@ -136,16 +156,25 @@ def recommend_laptops():
         recommendations_text.insert(tk.END, f"{ind+1}. {row.brand} {row.model}\n")
         recommendations_text.insert(tk.END, f"    Cost: {row.price}/- inr\n")
 
-
-
-
-import tkinter as tk
-
+# Function to get screen dimensions
 def get_screen_dimensions(root):
+    """
+    Get screen dimensions.
+
+    Retrieves the width and height of the screen.
+
+    Parameters:
+    - root (Tk): The Tkinter root window.
+
+    Returns:
+    tuple: A tuple containing the screen width and height.
+
+    """
     screen_width = root.winfo_screenwidth()
     screen_height = root.winfo_screenheight()
     return screen_width, screen_height
 
+# Main Tkinter window
 root = tk.Tk()
 root.title("Laptop Recommendation System")
 
@@ -155,7 +184,6 @@ window_height = 600
 screen_width, screen_height = get_screen_dimensions(root)
 x_position = (screen_width - window_width) // 2
 y_position = (screen_height - window_height) // 2
-
 root.geometry(f"{window_width}x{window_height}+{x_position}+{y_position}")
 
 # Create and place entry fields for user preferences
@@ -194,7 +222,6 @@ budget_label.grid(row=2, column=0, sticky="w")
 
 # Budget entry with the same width as the dropdown menu
 budget_entry = tk.Entry(root, font=("Arial", 25))
-# budget_entry.config(width=30)
 budget_entry.grid(row=2, column=1, columnspan=2, sticky="w")  # Spanning 2 columns, aligned to the west
 
 # Adjust column weights to control width
