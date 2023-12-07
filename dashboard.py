@@ -95,7 +95,7 @@ def recommend_laptops():
                                 (regex(str(?os), "windows") || regex(str(?os), "mac")))
                     }}
                     """
-    elif user_laptop_type_preference == "Development":
+    else:
         query_str = f"""
                     SELECT ?price ?brand ?model
                     WHERE {{
@@ -118,26 +118,6 @@ def recommend_laptops():
                                 (?processor_model = "i5" || ?processor_model = "i3")) &&
                                 ?gc_size >= 1))
                         }}
-                    """
-    else:
-        query_str = f"""
-                    SELECT ?ram ?brand ?model
-                    WHERE {{
-                        ?laptop a ns1:Laptop ;
-                                ns1:ram ?ram ;
-                                ns1:brand ?brand ;
-                                ns1:model ?model ;
-                                ns1:hd_size ?storage ;
-                                ns1:screen_size ?screen ;
-                                ns1:processor_brand ?processor ;
-                                ns1:os ?os ;
-                                ns1:price ?price .
-
-                        FILTER (?ram >= 2 && ?storage >= 512 && ?screen > 12 &&
-                                ?price <= {budget_preference} && 
-                                regex(str(?processor), "intel") && 
-                                regex(str(?os), "windows"))
-                    }}
                     """
     
     # Execute the SPARQL query

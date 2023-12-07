@@ -41,7 +41,7 @@ for index, row in df.iterrows():
             g.add((laptop_uri, property_uri, value_literal))
 
 # Serialize the RDF graph to Turtle format and save it to a file
-output_file = "data2.ttl"
+output_file = "data.ttl"
 g.serialize(output_file, format="turtle")
 
 print(f"RDF data has been saved to {output_file}")
