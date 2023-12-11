@@ -1,17 +1,2830 @@
-@prefix ex: <http://example.org/> .
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:MacbookAir2022 a ex:Laptop ;
-  ex:hasProcessor "Apple M2, 8-core" ;
-  ex:hasRAM "16GB" ;
-  ex:hasStorage "512GB SSD" ;
-  ex:hasWeight "2.8 pounds" ;
-  ex:belongsToCategory "Professional" ;
-  ex:hasPrice "High" .
+ns1:Laptop_1 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 1 ;
+    ns1:model "Inspiron 15-3567" ;
+    ns1:os "linux" ;
+    ns1:price 40000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
 
-ex:MacbookPro2023 a ex:Laptop ;
-  ex:hasProcessor "Apple M3, 10-core" ;
-  ex:hasRAM "32GB" ;
-  ex:hasStorage "1TB SSD" ;
-  ex:hasWeight "3.5 pounds" ;
-  ex:belongsToCategory "Professional" ;
-  ex:hasPrice "Very High" .
+ns1:Laptop_10 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 10 ;
+    ns1:model "Inspiron 15.6 3552" ;
+    ns1:os "linux" ;
+    ns1:price 21990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "pentium N3710" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_100 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 100 ;
+    ns1:model "Pavilion 14-bf125tx " ;
+    ns1:os "windows" ;
+    ns1:price 64490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 12 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.53"^^xsd:float .
+
+ns1:Laptop_101 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.8"^^xsd:float ;
+    ns1:comments """Operating System:	Windows 10 with Office 2016 Home and Student\r
+\r
+Lithium Battery Energy Content:	74 Watt Hours\r
+\r
+Included Components:	Laptop, Battery, AC Adapter, User Guide, Manuals""" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1280 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 101 ;
+    ns1:model "Inspiron 15 Gaming 7567" ;
+    ns1:os "windows" ;
+    ns1:price 112990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_102 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 102 ;
+    ns1:model "ay516tx" ;
+    ns1:os "windows" ;
+    ns1:price 42100 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "1.28"^^xsd:float .
+
+ns1:Laptop_103 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.1"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 103 ;
+    ns1:model "A315-31-P4CRUN.GNTSI.002" ;
+    ns1:os "windows" ;
+    ns1:price 18990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "pentium" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float .
+
+ns1:Laptop_105 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:comments "customer rating 3.8" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 105 ;
+    ns1:model "320E-15IKB 80XL03FYIN" ;
+    ns1:os "windows" ;
+    ns1:price 45589 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_106 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 106 ;
+    ns1:model "Inspiron 15 7560" ;
+    ns1:os "windows" ;
+    ns1:price 76000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_107 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 107 ;
+    ns1:model "15q-BU011TX" ;
+    ns1:os "windows" ;
+    ns1:price 42990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_108 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "customer rating 3.0" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 108 ;
+    ns1:model "300 300-15ISK 80Q700UGIN" ;
+    ns1:os "windows" ;
+    ns1:price 47990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_109 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:comments """Average Battery Life (in hours):	4\r
+Lithium Battery Energy Content:	  50 Watt Hours""" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 109 ;
+    ns1:model "XPS 12 Ultrabook" ;
+    ns1:os "windows" ;
+    ns1:price 101065 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "12.0"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_11 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 11 ;
+    ns1:model "Vostro 3468 " ;
+    ns1:os "windows" ;
+    ns1:price 35925 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 " ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.76"^^xsd:float .
+
+ns1:Laptop_110 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 110 ;
+    ns1:model "15-BS580TX" ;
+    ns1:os "windows" ;
+    ns1:price 42999 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 " ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_111 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:comments "customer rating 4.0" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 111 ;
+    ns1:model "510 80VB00ACIH" ;
+    ns1:os "windows" ;
+    ns1:price 47990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.7"^^xsd:float .
+
+ns1:Laptop_112 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 112 ;
+    ns1:model "Aspire ES-15 NX.GKYSI.010 " ;
+    ns1:os "windows" ;
+    ns1:price 17990 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "A4-7210" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_113 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "customer rating 3.0" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 113 ;
+    ns1:model "500 80NS0072IN" ;
+    ns1:os "windows" ;
+    ns1:price 49052 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_114 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 114 ;
+    ns1:model "450-Ci3" ;
+    ns1:os "windows" ;
+    ns1:price 43113 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "13.86"^^xsd:float ;
+    ns1:weight "2.25"^^xsd:float .
+
+ns1:Laptop_115 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:comments "customer rating 3.1" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 115 ;
+    ns1:model "320S-14IKB" ;
+    ns1:os "windows" ;
+    ns1:price 48449 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.7"^^xsd:float .
+
+ns1:Laptop_116 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 116 ;
+    ns1:model "Aspire R3-131T " ;
+    ns1:os "windows" ;
+    ns1:price 26490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium N3700" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.58"^^xsd:float .
+
+ns1:Laptop_117 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 117 ;
+    ns1:model "15-be001TX" ;
+    ns1:os "windows" ;
+    ns1:price 43990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_118 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 118 ;
+    ns1:model "15-ac123tx" ;
+    ns1:os "windows" ;
+    ns1:price 44000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_119 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 119 ;
+    ns1:model "Aspire Es1-572-38Cy" ;
+    ns1:os "linux" ;
+    ns1:price 24890 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.36"^^xsd:float .
+
+ns1:Laptop_12 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.7"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 12 ;
+    ns1:model "Inspiron 14 3442" ;
+    ns1:os "linux" ;
+    ns1:price 30900 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "3.1"^^xsd:float .
+
+ns1:Laptop_120 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:comments """Display: 15.6" in 4K UHD IPS touchscreen (3840 x 2160), 10-finger multi-touch support\r
+Audio: Klipsch Audio""" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 120 ;
+    ns1:model "OEM" ;
+    ns1:os "windows" ;
+    ns1:price 151258 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.18"^^xsd:float .
+
+ns1:Laptop_121 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 121 ;
+    ns1:model "A315-21G NX.GNPSI.002 " ;
+    ns1:os "linux" ;
+    ns1:price 24990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_122 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 122 ;
+    ns1:model "13 Y560901IN9" ;
+    ns1:os "windows" ;
+    ns1:price 117299 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.0"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_123 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 123 ;
+    ns1:model "245 G4,P1b38PA" ;
+    ns1:os "linux" ;
+    ns1:price 21999 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "E2-7110" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.93"^^xsd:float .
+
+ns1:Laptop_124 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 124 ;
+    ns1:model "N5Y13UA#ABA" ;
+    ns1:os "windows" ;
+    ns1:price 41134 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_125 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.16"^^xsd:float ;
+    ns1:comments "Integrated graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 125 ;
+    ns1:model "Inspiron 15 3551" ;
+    ns1:os "linux" ;
+    ns1:price 23000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium" ;
+    ns1:ram 2 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.12"^^xsd:float .
+
+ns1:Laptop_126 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:comments "17.3 inch FHD (1920 x 1080) IPS-Panel Anti-Glare 300-nits Display" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "3.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 126 ;
+    ns1:model "ANW17-2143SLV" ;
+    ns1:os "windows" ;
+    ns1:price 178427 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "17.3"^^xsd:float ;
+    ns1:weight "3.8"^^xsd:float .
+
+ns1:Laptop_127 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.9"^^xsd:float ;
+    ns1:comments "Intel Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 127 ;
+    ns1:model "15-ac118tu" ;
+    ns1:os "linux" ;
+    ns1:price 23990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium N3825U" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.03"^^xsd:float .
+
+ns1:Laptop_128 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 128 ;
+    ns1:model "E5-575 NX.GE6SI.016" ;
+    ns1:os "linux" ;
+    ns1:price 34700 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_129 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 129 ;
+    ns1:model "15-AY542TU" ;
+    ns1:os "linux" ;
+    ns1:price 28590 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_13 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 13 ;
+    ns1:model "Inspiron 15 3567" ;
+    ns1:os "windows" ;
+    ns1:price 35990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.24"^^xsd:float .
+
+ns1:Laptop_130 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 130 ;
+    ns1:model "245 G5" ;
+    ns1:os "windows" ;
+    ns1:price 40199 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "APU Dual Core A4" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.8"^^xsd:float .
+
+ns1:Laptop_131 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 131 ;
+    ns1:model "Aspire R3-131T 2017 " ;
+    ns1:os "windows" ;
+    ns1:price 27199 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium N3710" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_132 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 132 ;
+    ns1:model "Inspiron 5558" ;
+    ns1:os "windows" ;
+    ns1:price 37790 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "I3" ;
+    ns1:ram 2 ;
+    ns1:screen_size "15.6"^^xsd:float .
+
+ns1:Laptop_133 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 133 ;
+    ns1:model "15- BS547TU" ;
+    ns1:os "windows" ;
+    ns1:price 26299 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium N3710  " ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_134 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "3.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 134 ;
+    ns1:model "17R3 1471045648" ;
+    ns1:os "windows" ;
+    ns1:price 150453 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "17.3"^^xsd:float ;
+    ns1:weight "3.8"^^xsd:float .
+
+ns1:Laptop_135 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 135 ;
+    ns1:model "11-ad022TU" ;
+    ns1:os "windows" ;
+    ns1:price 40490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.39"^^xsd:float .
+
+ns1:Laptop_136 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 136 ;
+    ns1:model "15-BE002TU" ;
+    ns1:os "linux" ;
+    ns1:price 25248 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium N3710" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_137 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 137 ;
+    ns1:model "ASPIRE ES1-572-33M8" ;
+    ns1:os "windows" ;
+    ns1:price 33990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.0"^^xsd:float .
+
+ns1:Laptop_138 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 138 ;
+    ns1:model "15-ay008TX" ;
+    ns1:os "windows" ;
+    ns1:price 40890 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_139 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 139 ;
+    ns1:model "Pavilion 15-AU624TX" ;
+    ns1:os "windows" ;
+    ns1:price 58988 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.04"^^xsd:float .
+
+ns1:Laptop_14 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 14 ;
+    ns1:model "Vostro 3568" ;
+    ns1:os "linux" ;
+    ns1:price 24900 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Celeron 3855U" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_140 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 32 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 140 ;
+    ns1:model "Inspiron i3168" ;
+    ns1:os "windows" ;
+    ns1:price 37274 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Celeron N3060" ;
+    ns1:ram 2 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.45"^^xsd:float .
+
+ns1:Laptop_141 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 141 ;
+    ns1:model "15-bg007AU" ;
+    ns1:os "windows" ;
+    ns1:price 23990 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "A6-7310" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_142 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 142 ;
+    ns1:model "13-s101TU" ;
+    ns1:os "windows" ;
+    ns1:price 57900 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.71"^^xsd:float .
+
+ns1:Laptop_143 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 143 ;
+    ns1:model "ASPIRE E5-575 " ;
+    ns1:os "linux" ;
+    ns1:price 27280 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float .
+
+ns1:Laptop_144 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.4"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 32 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 144 ;
+    ns1:model "M2C39UA#ABA" ;
+    ns1:os "windows" ;
+    ns1:price 41224 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "E1-6015" ;
+    ns1:ram 2 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.9"^^xsd:float .
+
+ns1:Laptop_145 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 145 ;
+    ns1:model "1EK01PA" ;
+    ns1:os "windows" ;
+    ns1:price 41380 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_146 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 146 ;
+    ns1:model "Pavilion 15-AU006TX" ;
+    ns1:os "windows" ;
+    ns1:price 57000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.9"^^xsd:float .
+
+ns1:Laptop_147 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 147 ;
+    ns1:model "Aspire ES 15" ;
+    ns1:os "linux" ;
+    ns1:price 19589 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "E1-7010" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_148 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:comments """Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)\r
+Integrated Graphics\r
+Full HD Display\r
+""" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 148 ;
+    ns1:model "Surface Pro 4 CR5-00028" ;
+    ns1:os "windows" ;
+    ns1:price 66500 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "12.3"^^xsd:float ;
+    ns1:weight "0.78"^^xsd:float .
+
+ns1:Laptop_149 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 64 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 149 ;
+    ns1:model "E4X93PA" ;
+    ns1:os "windows" ;
+    ns1:price 41599 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 2 ;
+    ns1:screen_size "10.1"^^xsd:float ;
+    ns1:weight "1.26"^^xsd:float .
+
+ns1:Laptop_15 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 15 ;
+    ns1:model "Inspiron 15 3565" ;
+    ns1:os "linux" ;
+    ns1:price 20990 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "E2" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_150 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 150 ;
+    ns1:model "15-AY079TX" ;
+    ns1:os "windows" ;
+    ns1:price 41850 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_151 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:comments """Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)\r
+Integrated Graphics\r
+Surface Pen included""" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 151 ;
+    ns1:model "Surface Pro 4 CR3-00022" ;
+    ns1:os "windows" ;
+    ns1:price 88900 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "12.3"^^xsd:float ;
+    ns1:weight "0.79"^^xsd:float .
+
+ns1:Laptop_152 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.44"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 32 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 152 ;
+    ns1:model "Aspire SW3-016 " ;
+    ns1:os "windows" ;
+    ns1:price 13872 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Atom Z8300" ;
+    ns1:ram 2 ;
+    ns1:screen_size "10.1"^^xsd:float ;
+    ns1:weight "1.2"^^xsd:float .
+
+ns1:Laptop_153 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:comments """Laptop/Tablet: Go from tablet to laptop in a snap with the multi-position Kickstand and improved keyboard. (to be purchased separately)\r
+Integrated Graphics\r
+Surface Pen included""" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 153 ;
+    ns1:model "Surface Pro 4 CQ9-00016" ;
+    ns1:os "windows" ;
+    ns1:price 122990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "12.3"^^xsd:float ;
+    ns1:weight "0.79"^^xsd:float .
+
+ns1:Laptop_154 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 154 ;
+    ns1:model "ProBook 450 G4 Notebook" ;
+    ns1:os "linux" ;
+    ns1:price 56197 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float .
+
+ns1:Laptop_155 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 155 ;
+    ns1:model "Surface Laptop DAG-00001" ;
+    ns1:os "windows" ;
+    ns1:price 171901 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.5"^^xsd:float ;
+    ns1:weight "1.2"^^xsd:float .
+
+ns1:Laptop_156 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 156 ;
+    ns1:model "Pavilion15t" ;
+    ns1:os "windows" ;
+    ns1:price 56992 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_157 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 157 ;
+    ns1:model "Surface Book CR9-00001" ;
+    ns1:os "windows" ;
+    ns1:price 143857 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.5"^^xsd:float ;
+    ns1:weight "1.6"^^xsd:float .
+
+ns1:Laptop_158 a ns1:Laptop ;
+    ns1:brand "Microsoft" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 158 ;
+    ns1:model "Surface Book CR9-00013" ;
+    ns1:os "windows" ;
+    ns1:price 178799 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.5"^^xsd:float ;
+    ns1:weight "1.5"^^xsd:float .
+
+ns1:Laptop_159 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:comments "Dolby Audio" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 159 ;
+    ns1:model "IdeaPad 520-15IKB" ;
+    ns1:os "windows" ;
+    ns1:price 58990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_16 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.8"^^xsd:float ;
+    ns1:comments "Gaming Laptop" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "6.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 16 ;
+    ns1:model "Predator Helios 300" ;
+    ns1:os "windows" ;
+    ns1:price 101839 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.7"^^xsd:float .
+
+ns1:Laptop_160 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:comments "Dolby Audio" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 2048 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 160 ;
+    ns1:model "IdeaPad 520-15IKB" ;
+    ns1:os "windows" ;
+    ns1:price 61000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_161 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:comments "Core i7-7500U 7th Gen processor, Dolby Audio" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 161 ;
+    ns1:model "IdeaPad 520-15IKB 80YL00RXIN " ;
+    ns1:os "windows" ;
+    ns1:price 69990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_162 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 162 ;
+    ns1:model "X540YA-XO290D" ;
+    ns1:os "linux" ;
+    ns1:price 19990 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "APU Quad Core E2" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.0"^^xsd:float .
+
+ns1:Laptop_163 a ns1:Laptop ;
+    ns1:brand "Asus " ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 163 ;
+    ns1:model "P2420SA" ;
+    ns1:os "linux" ;
+    ns1:price 22290 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium Quad Core" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.95"^^xsd:float .
+
+ns1:Laptop_164 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 164 ;
+    ns1:model "X540LA-XX596D" ;
+    ns1:os "linux" ;
+    ns1:price 26990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 5th gen" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "1.9"^^xsd:float .
+
+ns1:Laptop_165 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 165 ;
+    ns1:model "X541UA-GO1345D" ;
+    ns1:os "linux" ;
+    ns1:price 27730 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 6th gen" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "1.84"^^xsd:float .
+
+ns1:Laptop_166 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "1.7"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 166 ;
+    ns1:model "A555LF" ;
+    ns1:os "windows" ;
+    ns1:price 39961 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 4th gen" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_167 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "1.9"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 167 ;
+    ns1:model "X555LA-XX172D" ;
+    ns1:os "linux" ;
+    ns1:price 28489 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 4th gen" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_168 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "1.9"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "1.0"^^xsd:float ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 168 ;
+    ns1:model "X554LD" ;
+    ns1:os "linux" ;
+    ns1:price 29199 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 4th gen" ;
+    ns1:ram 2 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_169 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "1.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 169 ;
+    ns1:model "X550LAV-XX771D" ;
+    ns1:os "linux" ;
+    ns1:price 29990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 4th gen" ;
+    ns1:ram 2 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_17 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 17 ;
+    ns1:model "Latitude 3480" ;
+    ns1:os "linux" ;
+    ns1:price 28870 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.8"^^xsd:float .
+
+ns1:Laptop_170 a ns1:Laptop ;
+    ns1:brand "Asus" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 170 ;
+    ns1:model "X540LA-XX538T" ;
+    ns1:os "windows" ;
+    ns1:price 30899 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3 5th gen" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_18 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "3.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "4000.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 18 ;
+    ns1:model "Nitro 5" ;
+    ns1:os "windows" ;
+    ns1:price 72784 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "FX 9830P" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.7"^^xsd:float .
+
+ns1:Laptop_19 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 19 ;
+    ns1:model "Inspiron 5559" ;
+    ns1:os "windows" ;
+    ns1:price 34980 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_2 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 2 ;
+    ns1:model "MacBook Air" ;
+    ns1:os "mac" ;
+    ns1:price 55499 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.35"^^xsd:float .
+
+ns1:Laptop_20 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 20 ;
+    ns1:model "Aspire E5- 575G- 51VA" ;
+    ns1:os "linux" ;
+    ns1:price 50331 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.7"^^xsd:float .
+
+ns1:Laptop_21 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.8"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 21 ;
+    ns1:model "Aspire F 15" ;
+    ns1:os "windows" ;
+    ns1:price 59898 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_22 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "1.9"^^xsd:float ;
+    ns1:comments "integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 22 ;
+    ns1:model "Inspiron 11 3148" ;
+    ns1:os "windows" ;
+    ns1:price 25990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.4"^^xsd:float .
+
+ns1:Laptop_23 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 23 ;
+    ns1:model "E5-574G" ;
+    ns1:os "windows" ;
+    ns1:price 53499 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_24 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.2"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 24 ;
+    ns1:model "Inspiron 15 5555" ;
+    ns1:os "windows" ;
+    ns1:price 38590 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "A10-8700P" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.6"^^xsd:float .
+
+ns1:Laptop_25 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.4"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 60 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 25 ;
+    ns1:model "Aspire NX.M8NSI.007" ;
+    ns1:os "windows" ;
+    ns1:price 68999 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.4"^^xsd:float .
+
+ns1:Laptop_26 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 26 ;
+    ns1:model "Inspiron-15 5548" ;
+    ns1:os "windows" ;
+    ns1:price 38990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_27 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "3.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 27 ;
+    ns1:model "Spin 7 SP714-51" ;
+    ns1:os "windows" ;
+    ns1:price 124900 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.2"^^xsd:float .
+
+ns1:Laptop_28 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 28 ;
+    ns1:model "SF314-51" ;
+    ns1:os "windows" ;
+    ns1:price 74797 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.5"^^xsd:float .
+
+ns1:Laptop_29 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "3.2"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 29 ;
+    ns1:model "Swift 7 SF713-51" ;
+    ns1:os "windows" ;
+    ns1:price 80940 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.125"^^xsd:float .
+
+ns1:Laptop_3 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 3 ;
+    ns1:model "MacBook Air" ;
+    ns1:os "mac" ;
+    ns1:price 71500 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.35"^^xsd:float .
+
+ns1:Laptop_30 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 30 ;
+    ns1:model "Aspire F5 572G" ;
+    ns1:os "linux" ;
+    ns1:price 50680 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_31 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 31 ;
+    ns1:model "ASPIRE V NITRO" ;
+    ns1:os "windows" ;
+    ns1:price 105300 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 12 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_32 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 32 ;
+    ns1:model "Predator 17" ;
+    ns1:os "windows" ;
+    ns1:price 178912 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "17.3"^^xsd:float ;
+    ns1:weight "4.2"^^xsd:float .
+
+ns1:Laptop_33 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "1.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 33 ;
+    ns1:model "Aspire-V VN7-591G" ;
+    ns1:os "windows" ;
+    ns1:price 105510 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 12 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_34 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 34 ;
+    ns1:model "Swift 3" ;
+    ns1:os "windows" ;
+    ns1:price 69999 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.525"^^xsd:float .
+
+ns1:Laptop_35 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "3.6"^^xsd:float ;
+    ns1:comments """The Best Gaming is on GeForce\r
+Discover desktop-class gaming on a notebook with the next-generation GeForce GTX 1050M/1060M/1070M.** Plus, get improved battery life you need to game longer, unplugged.""" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "8.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 35 ;
+    ns1:model "Omen W 250TX" ;
+    ns1:os "windows" ;
+    ns1:price 169990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "17.6"^^xsd:float ;
+    ns1:weight "2.7"^^xsd:float .
+
+ns1:Laptop_36 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:comments "Windows 10 Home" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 36 ;
+    ns1:model "Omen AX248TX" ;
+    ns1:os "windows" ;
+    ns1:price 74990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_37 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.8"^^xsd:float ;
+    ns1:comments "Windows 10 Home" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "6.0"^^xsd:float ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 37 ;
+    ns1:model "Omen 15-ce074tx" ;
+    ns1:os "windows" ;
+    ns1:price 143990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.6"^^xsd:float .
+
+ns1:Laptop_38 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 38 ;
+    ns1:model "13-D116TU" ;
+    ns1:os "windows" ;
+    ns1:price 93410 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.35"^^xsd:float .
+
+ns1:Laptop_39 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "1.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 39 ;
+    ns1:model "13-D115TU" ;
+    ns1:os "windows" ;
+    ns1:price 101882 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float .
+
+ns1:Laptop_4 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 4 ;
+    ns1:model "MacBook Pro" ;
+    ns1:os "mac" ;
+    ns1:price 96890 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "3.02"^^xsd:float .
+
+ns1:Laptop_40 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 40 ;
+    ns1:model "13-d015TU" ;
+    ns1:os "windows" ;
+    ns1:price 75990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "13.3"^^xsd:float .
+
+ns1:Laptop_41 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 41 ;
+    ns1:model "Nitro 5 Spin NP-515-51" ;
+    ns1:os "windows" ;
+    ns1:price 87990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_42 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 360 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 42 ;
+    ns1:model "13-ac058TU" ;
+    ns1:os "windows" ;
+    ns1:price 115290 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.32"^^xsd:float .
+
+ns1:Laptop_43 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 43 ;
+    ns1:model "Aspire E 15" ;
+    ns1:os "windows" ;
+    ns1:price 73756 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_44 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "1.6"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 44 ;
+    ns1:model "Pavilion 15-cc102TX" ;
+    ns1:os "windows" ;
+    ns1:price 59990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.12"^^xsd:float .
+
+ns1:Laptop_45 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 45 ;
+    ns1:model "13-ac059TU" ;
+    ns1:os "windows" ;
+    ns1:price 169280 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "13.3"^^xsd:float .
+
+ns1:Laptop_46 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "2.7 customer rating" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 46 ;
+    ns1:model "300–15IBR" ;
+    ns1:os "linux" ;
+    ns1:price 40990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_47 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 47 ;
+    ns1:model "Aspire 5 -A515-51G " ;
+    ns1:os "linux" ;
+    ns1:price 37990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_48 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 48 ;
+    ns1:model "13-v122TU" ;
+    ns1:os "windows" ;
+    ns1:price 143999 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.11"^^xsd:float .
+
+ns1:Laptop_49 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 49 ;
+    ns1:model "Inspiron 7560" ;
+    ns1:os "windows" ;
+    ns1:price 81369 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.1"^^xsd:float .
+
+ns1:Laptop_5 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 5 ;
+    ns1:model "MacBook Pro" ;
+    ns1:os "mac" ;
+    ns1:price 112666 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "3.02"^^xsd:float .
+
+ns1:Laptop_50 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.9"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 50 ;
+    ns1:model "Aspire R 14 R3-431T-P3RD" ;
+    ns1:os "windows" ;
+    ns1:price 63347 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Pentium 3805U" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_52 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 52 ;
+    ns1:model "15q-bu004tu" ;
+    ns1:os "linux" ;
+    ns1:price 27990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_53 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 53 ;
+    ns1:model "Pavilion 15-au620TX" ;
+    ns1:os "windows" ;
+    ns1:price 55290 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.03"^^xsd:float .
+
+ns1:Laptop_54 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:comments "customer rating 3.3" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 54 ;
+    ns1:model "G50-80" ;
+    ns1:os "windows" ;
+    ns1:price 41790 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_55 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 55 ;
+    ns1:model "Aspire E5-573G" ;
+    ns1:os "windows" ;
+    ns1:price 87576 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_56 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 56 ;
+    ns1:model "Pavilion 15-au620TX" ;
+    ns1:os "windows" ;
+    ns1:price 60990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.03"^^xsd:float .
+
+ns1:Laptop_57 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:comments "customer rating 3.8" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 57 ;
+    ns1:model "IP310" ;
+    ns1:os "linux" ;
+    ns1:price 41990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_58 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 58 ;
+    ns1:model "Premium" ;
+    ns1:os "windows" ;
+    ns1:price 72112 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_59 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 59 ;
+    ns1:model "Inspiron 15 Gaming 5577" ;
+    ns1:os "windows" ;
+    ns1:price 72490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.6"^^xsd:float .
+
+ns1:Laptop_6 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 6 ;
+    ns1:model "MacBook Pro (TouchBar)" ;
+    ns1:os "mac" ;
+    ns1:price 226000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.0"^^xsd:float ;
+    ns1:weight "2.5"^^xsd:float .
+
+ns1:Laptop_60 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 60 ;
+    ns1:model "Pavilion 15-au620TX " ;
+    ns1:os "windows" ;
+    ns1:price 62990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "2.03"^^xsd:float .
+
+ns1:Laptop_61 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:comments "customer rating 3.5" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 61 ;
+    ns1:model "310 80TV00XXIH" ;
+    ns1:os "linux" ;
+    ns1:price 41990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_62 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.8"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 128 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 62 ;
+    ns1:model "Inspiron 15 7000 7567" ;
+    ns1:os "windows" ;
+    ns1:price 99991 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_63 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 63 ;
+    ns1:model "14q-bu008tu (2UL54PA)" ;
+    ns1:os "windows" ;
+    ns1:price 39990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.9"^^xsd:float .
+
+ns1:Laptop_64 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.44"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 32 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 64 ;
+    ns1:model "Switch 10E SW3-016 " ;
+    ns1:os "windows,linux" ;
+    ns1:price 11976 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Atom Z8300" ;
+    ns1:ram 2 ;
+    ns1:screen_size "10.1"^^xsd:float ;
+    ns1:weight "1.2"^^xsd:float .
+
+ns1:Laptop_65 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 65 ;
+    ns1:model "15-BR011TX" ;
+    ns1:os "windows" ;
+    ns1:price 52690 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_66 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.8"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 66 ;
+    ns1:model "Inspiron 15 Gaming 7567" ;
+    ns1:os "windows" ;
+    ns1:price 91890 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_67 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 67 ;
+    ns1:model "Nitro 5" ;
+    ns1:os "windows" ;
+    ns1:price 131551 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 16 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "2.7"^^xsd:float .
+
+ns1:Laptop_68 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 68 ;
+    ns1:model "15-BR011TX" ;
+    ns1:os "windows" ;
+    ns1:price 65590 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_69 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.3"^^xsd:float ;
+    ns1:comments "cutomer rating 3.6" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 69 ;
+    ns1:model "300-15ISK 80Q700DWIN" ;
+    ns1:os "linux" ;
+    ns1:price 41990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_7 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "2.9"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 7 ;
+    ns1:model "MacBook Pro (TouchBar)" ;
+    ns1:os "mac" ;
+    ns1:price 158000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 16 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.37"^^xsd:float .
+
+ns1:Laptop_70 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 2048 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 70 ;
+    ns1:model "Inspiron 5567" ;
+    ns1:os "windows" ;
+    ns1:price 84990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_71 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 71 ;
+    ns1:model "15q-BU008TX" ;
+    ns1:os "linux" ;
+    ns1:price 33990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_72 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 72 ;
+    ns1:model "Pavilion 14-AL176TX" ;
+    ns1:os "windows" ;
+    ns1:price 57990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.58"^^xsd:float .
+
+ns1:Laptop_73 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 2048 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 73 ;
+    ns1:model "Inspiron 15 5000 5567" ;
+    ns1:os "windows" ;
+    ns1:price 86350 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_74 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 74 ;
+    ns1:model "Pavilion x360 14-ba075TX " ;
+    ns1:os "windows" ;
+    ns1:price 51490 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.72"^^xsd:float .
+
+ns1:Laptop_75 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:comments "customer rating 3.8" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 75 ;
+    ns1:model "G50-80 80E503CMIH" ;
+    ns1:os "linux" ;
+    ns1:price 42500 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_76 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.8"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 76 ;
+    ns1:model "Aspire ES1-523 " ;
+    ns1:os "linux" ;
+    ns1:price 19465 ;
+    ns1:processor_brand "amd" ;
+    ns1:processor_model "A4-7210" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_77 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 77 ;
+    ns1:model "15-bs541TU" ;
+    ns1:os "windows" ;
+    ns1:price 34990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_78 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.8"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 78 ;
+    ns1:model "Inspiron 15 Gaming 5577" ;
+    ns1:os "windows" ;
+    ns1:price 83000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.6"^^xsd:float .
+
+ns1:Laptop_79 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 79 ;
+    ns1:model "15-bs541TU" ;
+    ns1:os "linux" ;
+    ns1:price 36590 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_8 a ns1:Laptop ;
+    ns1:brand "Apple" ;
+    ns1:clock_speed "1.2"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 8 ;
+    ns1:model "MacBook " ;
+    ns1:os "mac" ;
+    ns1:price 96990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "core m" ;
+    ns1:ram 8 ;
+    ns1:screen_size "12.0"^^xsd:float ;
+    ns1:weight "0.92"^^xsd:float .
+
+ns1:Laptop_80 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "1.7"^^xsd:float ;
+    ns1:comments "customer rating 3.9" ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 80 ;
+    ns1:model "59422410" ;
+    ns1:os "windows" ;
+    ns1:price 42190 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.4"^^xsd:float .
+
+ns1:Laptop_81 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:comments "Laptop with Built-in Battery, AC Adapter with Power Cord, Manuals" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 81 ;
+    ns1:model "Inspiron 5378" ;
+    ns1:os "windows" ;
+    ns1:price 76585 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "1.6"^^xsd:float .
+
+ns1:Laptop_82 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:comments "customer rating 2.9" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 82 ;
+    ns1:model "100 80QQ01BBIH" ;
+    ns1:os "windows" ;
+    ns1:price 42790 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_83 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 83 ;
+    ns1:model "15q-Bu014TU " ;
+    ns1:os "windows" ;
+    ns1:price 39990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_84 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 84 ;
+    ns1:model "L8E74UT#ABA" ;
+    ns1:os "windows" ;
+    ns1:price 40255 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 2 ;
+    ns1:screen_size "11.6"^^xsd:float ;
+    ns1:weight "1.28"^^xsd:float .
+
+ns1:Laptop_85 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.8"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 85 ;
+    ns1:model "Inspiron 17 7567" ;
+    ns1:os "windows" ;
+    ns1:price 119780 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "4.1"^^xsd:float .
+
+ns1:Laptop_86 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "1.1"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 500 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 86 ;
+    ns1:model "A315-31CDC UN.GNTSI.001" ;
+    ns1:os "windows" ;
+    ns1:price 17990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "Celeron" ;
+    ns1:ram 2 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_87 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "2.2"^^xsd:float ;
+    ns1:comments "customer rating 3.4" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 87 ;
+    ns1:model "G50-80 80E5021EIN" ;
+    ns1:os "linux" ;
+    ns1:price 42990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.2"^^xsd:float .
+
+ns1:Laptop_88 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 88 ;
+    ns1:model "Pavilion x360 11-AD022TU" ;
+    ns1:os "windows" ;
+    ns1:price 39999 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "11.0"^^xsd:float ;
+    ns1:weight "1.39"^^xsd:float .
+
+ns1:Laptop_89 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "3.5"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 89 ;
+    ns1:model "Inspiron 5567" ;
+    ns1:os "windows" ;
+    ns1:price 74985 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_9 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.4"^^xsd:float ;
+    ns1:comments "Integrated Graphics" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 9 ;
+    ns1:model "Vostro 3468" ;
+    ns1:os "linux" ;
+    ns1:price 33225 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.76"^^xsd:float .
+
+ns1:Laptop_90 a ns1:Laptop ;
+    ns1:brand "HP " ;
+    ns1:clock_speed "2.5"^^xsd:float ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "4.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 90 ;
+    ns1:model "15-au623Tx" ;
+    ns1:os "windows" ;
+    ns1:price 59990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.5"^^xsd:float ;
+    ns1:weight "2.9"^^xsd:float .
+
+ns1:Laptop_91 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 91 ;
+    ns1:model "15-BS544TU" ;
+    ns1:os "linux" ;
+    ns1:price 32849 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.1"^^xsd:float .
+
+ns1:Laptop_92 a ns1:Laptop ;
+    ns1:brand "Lenovo" ;
+    ns1:clock_speed "3.1"^^xsd:float ;
+    ns1:comments "customer rating 3.2" ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 92 ;
+    ns1:model "320E 80XL0378IN" ;
+    ns1:os "windows" ;
+    ns1:price 43990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i5" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_93 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "2.6"^^xsd:float ;
+    ns1:comments "Maximum Display Resolution : 1920 x 1080 pixel" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "8.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 93 ;
+    ns1:model "15 Notebook" ;
+    ns1:os "windows" ;
+    ns1:price 199000 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "3.5"^^xsd:float .
+
+ns1:Laptop_94 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 94 ;
+    ns1:model "Inspiron 7378" ;
+    ns1:os "windows" ;
+    ns1:price 77993 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "2.8"^^xsd:float .
+
+ns1:Laptop_95 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "amd" ;
+    ns1:graphic_card_size "2.0"^^xsd:float ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 95 ;
+    ns1:model "15-ay511tx" ;
+    ns1:os "windows" ;
+    ns1:price 41990 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 8 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.19"^^xsd:float .
+
+ns1:Laptop_96 a ns1:Laptop ;
+    ns1:brand "Acer" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 96 ;
+    ns1:model "Aspire3 A315-51-356P " ;
+    ns1:os "windows" ;
+    ns1:price 30415 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.2"^^xsd:float .
+
+ns1:Laptop_97 a ns1:Laptop ;
+    ns1:brand "Dell" ;
+    ns1:clock_speed "2.7"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 512 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 97 ;
+    ns1:model "Inspiron 15 5578" ;
+    ns1:os "windows" ;
+    ns1:price 76996 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 16 ;
+    ns1:screen_size "15.6"^^xsd:float ;
+    ns1:weight "2.3"^^xsd:float .
+
+ns1:Laptop_98 a ns1:Laptop ;
+    ns1:brand "HP" ;
+    ns1:clock_speed "2.0"^^xsd:float ;
+    ns1:graphic_card_brand "intel" ;
+    ns1:hd_size 1024 ;
+    ns1:hd_type "hdd" ;
+    ns1:id 98 ;
+    ns1:model "HP AR004TU" ;
+    ns1:os "windows" ;
+    ns1:price 34668 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i3" ;
+    ns1:ram 4 ;
+    ns1:screen_size "14.0"^^xsd:float ;
+    ns1:weight "1.94"^^xsd:float .
+
+ns1:Laptop_99 a ns1:Laptop ;
+    ns1:brand "Alienware" ;
+    ns1:clock_speed "3.0"^^xsd:float ;
+    ns1:comments """13.3 inch FHD (1920 x 1080) IPS Anti-Glare 300-nits Display\r
+1 Lithium ion batteries required. (included)""" ;
+    ns1:graphic_card_brand "nvidia" ;
+    ns1:graphic_card_size "6.0"^^xsd:float ;
+    ns1:hd_size 256 ;
+    ns1:hd_type "ssd" ;
+    ns1:id 99 ;
+    ns1:model "AW13R3-7000SLV-PUS" ;
+    ns1:os "windows" ;
+    ns1:price 190256 ;
+    ns1:processor_brand "intel" ;
+    ns1:processor_model "i7" ;
+    ns1:ram 8 ;
+    ns1:screen_size "13.3"^^xsd:float ;
+    ns1:weight "2.6"^^xsd:float .
+
